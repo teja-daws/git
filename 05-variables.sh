@@ -2,6 +2,6 @@
 
 echo "Please enter your username"
 
-read USERNAME
+read USERNAME #takes input into USERNAME variable
 
-echo "Username entered is: $USER"
+echo "Username entered is: $USERNMAE"
