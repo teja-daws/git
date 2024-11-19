@@ -1,7 +1,12 @@
 #!/bin/bash
 
-echo "Please enter your username"
+echo "Please enter your username::"
 
-read USERNAME #takes input into USERNAME variable
+read -s USERNAME #takes input into USERNAME variable
 
 echo "Username entered is: $USERNMAE"
+
+echo "Please enter your password::"
+
+read -s PASSWORD
+echo "Password entered is: $PASSWORD"
