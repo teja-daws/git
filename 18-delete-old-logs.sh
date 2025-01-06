@@ -6,6 +6,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
+#checking SOURCE_DIR is present or not
 if [ -d $SOURCE_DIR]
 then
     echo -e "$SOURCE_DIR $G Exists $N"
